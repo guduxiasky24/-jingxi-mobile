@@ -1,0 +1,275 @@
+html, body {
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-slide {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-slide .userpattya {
+    margin-top: 20px;
+    height:40px;
+    padding-top:10px;
+}
+
+.swiper-slide a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.swiper-slide .userpattya a:hover{
+	color:#fff;
+}
+.userpattya1 {
+    color: #fff;
+    background: #D00090;
+    border: 1px #D00090 solid;
+}
+
+.userpattya2 {
+    color: #D00090;
+    background: #fff;
+    margin-left:10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px #D00090 solid;
+}
+
+.userpatty {
+    padding: 0 15px;
+}
+.userpatty h3{
+	color:#000;
+	font-size:16px;
+	line-height:30px;
+}
+.userpatty .h2left {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.userpatty hr {
+    border: 1px #333 solid;
+}
+
+.userpatty ul {
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+}
+
+.userpatty ul li {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.userpatty ul li.endpatty {
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: right;
+    color:#CA2A44;
+}
+
+.m_popUp {
+    width: 100%;
+    height: 100%;
+    background: #000 none repeat scroll 0% 0%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+.m_guide {
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+.m_guide span {
+    display: block;
+    background: transparent url("http://mskin.1yyg.com/weixin/Member/Images/share_02.png?v=140902") no-repeat scroll right top / 320px auto;
+    height: 85px;
+}
+
+.m_how {
+    margin-top: 50px;
+}
+
+.m_how h4 {
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+
+.m_how p {
+    color: #fff;
+    text-indent: -1.2em;
+    padding: 5px 10px 5px 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*new help*/
+.m_popUp{
+	width : 100%;
+	height : 100%;
+	position : fixed;
+	z-index : 100;
+	top : 0;
+	background : rgba(0,0,0,0.8)
+	}
+.helpmoney{
+	width: 220px;
+    height: 150px;
+    top: 50%;
+    left:50%;
+    margin-left:-110px;
+    margin-top:-75px;
+    position: fixed;
+    background: #ff0000;
+    border-radius:10px;
+}
+.helpmoney4,.helpmoney3,.helpmoney2 {
+	text-align: center;
+	display: block;
+	color: rgb(244, 249, 50);
+	font-size: 18px;
+	font-weight: bold;
+}
+.m_popUp .helpmoney3 {
+	letter-spacing: 2px;
+	font-size: 16px;
+	line-height: 45px;
+}
+.m_popUp .helpmoney2 {
+	letter-spacing: 3px;
+	margin-top:5px;
+	line-height: 40px;
+}
+.m_popUp .helpmoney4 {
+	line-height: 30px;
+	width: 100px;
+	border: 1px solid rgb(244, 249, 50);
+	border-radius: 10px;
+	margin: 15px auto;
+}
+/*活动抢购*/
+.activityshop{
+    overflow: hidden;
+	margin: 0px 5px 10px 5px;
+	border: 5px solid #CA2A44;
+	border-radius: 5px;
+	background: #FFF none repeat scroll 0% 0%;
+	box-shadow: 1px 1px 1px #CA2A44;
+}
+.activityshop li{
+	width: 100%;
+	float: left;
+	text-align: center;
+	border-bottom: 5px solid #CA2A44;
+	display: inline-block;
+}
+.activityshop li:last-child{
+	border-bottom:0;
+}
+.actishop{
+	padding:3px;
+	clear: both;
+	color: #AEADAD;
+}
+.activityshop li .pri-promo{
+	display: block;
+	height: 18px;
+	font-size:10px;
+	text-align:left;
+	padding:3px 0px 3px 10px;
+}
+.activityshop li .pri-promo ins{
+	width:50%;
+	font-size:12px;
+}
+.activityshop li .pri-promo b{
+	color:#333;
+	font-size:12px;
+}
+.activityshop li .pri-promo p{
+	width:50%;
+	float:right;
+	font-size:10px;
+}
+.activityshop li .pri-promo p span{
+	color:#CA2A44;
+}
+.activityshop li .pri-promo ins em{
+	color:#CA2A44;
+}
+.actishop2{
+	max-width: 640px;
+	height: 100%;
+	margin: 0 auto;
+}
+.actishop2 img{
+	display: block;
+	background-color: #FFF;
+}
+.activityshop li .Progress-left{
+	width:100%;
+	display: inline-block;
+}
+.activityshop li .Progress-right{
+	width:80%;
+	margin:5px 0;
+	display: inline-block;
+}
+.activityshop li .Progress-right a{
+	color:#fff;
+	width:48%;
+	line-height:35px;
+	border-radius:3px;
+}
+.activityshop li .Progress-right a:hover{
+	color:#fff;
+}
+.Prole{
+	float:left;
+	background:#CA2A44;
+}
+.Prori{
+	float:right;
+	background:#FFB320;
+}
+.actishop2,.pri-promo,.Progress-left{
+	float:left;
+}
+.pri-promo,.activityshop li .Progress-left{
+	width:350px;
+}
+.activityshop li .Progress-left{
+    padding-left: 9px;
+    padding-top: 26px;
+}
+.actishop {
+    padding: 8px;
+}
+.activityshop li .pri-promo {
+    padding: 9px 0px 3px 10px;
+}
